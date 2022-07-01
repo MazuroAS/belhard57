@@ -14,6 +14,9 @@ else:
     print('нет символов для замены')
 
 
+# вариант, рассмотренный на занятии
+text:str = input()result_1str="-".join(text.split(" "))
+
 
 
 
