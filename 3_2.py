@@ -4,3 +4,10 @@ b = int(input('введите второе число'))
 e = int(input('введите третье число'))
 d=(a+b+e)/3
 print(round(d,3))
+
+# через список
+numbers: list = [5,8,7]
+x = sum(numbers)/3
+print(round(x,3))
+
+

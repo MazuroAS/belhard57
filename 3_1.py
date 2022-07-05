@@ -5,17 +5,18 @@ text: str = 'first friday'
 print(text.replace(' ','-'))
 
 
-# метод  просто через  цикл if c условием, что если нет ля замены ничего, нам оператор напечатает это
-text_2: str = 'firstfriday'
-a=' '
-if a in text_2:
-        print(text_2.replace(' ','-'))
-else:
-    print('нет символов для замены')
+# вариант 2, рассмотренный на занятии
+text_2: str = 'last day'
+result_2: str = "-".join(text_2.split(" "))
+print(result_2)
+
+#вариант 3  поочередно через split и join
+text_3: str = 'good evening'
+result_3: str = text_3.split(' ')
+result_4: str = '-'.join(result_3)
+print(result_4)
 
 
-# вариант, рассмотренный на занятии
-text:str = input()result_1str="-".join(text.split(" "))
 
 
 
