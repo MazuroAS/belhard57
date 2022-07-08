@@ -1,0 +1,15 @@
+#Сделать калькулятор: у пользователя спрашивается число, потом действие и второечисло
+
+def calculator (num_1, operacion, num_2):
+    if operacion == "+":
+        return num_1 + num_2
+    elif operacion == "-":
+        return num_1 - num_2
+    elif operacion == "*":
+        return num_1 * num_2
+    elif operacion == "/":
+        return num_1 / num_2
+    else:
+        return "Are you stupid?"
+result = calculator (int(input("Введите num_1")), input("Введите operacion:"), int(input("Введите num_3")))
+print("Результат: ", result)
