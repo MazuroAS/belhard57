@@ -21,3 +21,12 @@ for i in range (2, n+1, 2):
         c = 1
         print()
     print(i, end='')
+# дополнительное задание
+text: str = input()
+i=0
+c=0
+while i< len(text)-1:
+    c=c+1
+    i=i+2
+i=i+1
+print(c)
