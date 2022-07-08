@@ -1,0 +1,9 @@
+# Вывести первые N цисел кратные M и больше K
+
+
+N = int(input('Введите число N'))
+M = int(input('Введите число M'))
+K = int(input('Введите число K'))
+for i in range(K+1, M*N+K+1):
+    if(i % M == 0):
+        print(i)
