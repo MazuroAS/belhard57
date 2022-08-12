@@ -48,4 +48,3 @@ class ArticleCommert(Base):
     data_create = Column(TIMESTAMP, default=datetime.utcnow())
 
 
-
